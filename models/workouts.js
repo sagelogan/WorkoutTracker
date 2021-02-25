@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-const schema = mongoose.schema;
-const exerciseSchema = new schema({
+const Schema = mongoose.Schema;
+const exerciseSchema = new Schema({
     day:{
         type:Date,
         default:Date.now,
